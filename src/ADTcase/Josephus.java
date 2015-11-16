@@ -4,7 +4,7 @@ package ADTcase;
 /**
  * 
  * @author zhaoliang
- * 约瑟夫问题    
+ * 约瑟夫问题 
  * @date 2014-11-12
  * @time 16:51
  */
