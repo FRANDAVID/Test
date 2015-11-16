@@ -1,0 +1,5 @@
+http://www.codeceo.com/article/java-memory-model-volatile.html
+
+变量在有了volatile修饰之后，对变量的修改会有一个内存屏障的保护，使得后面的指令不能被重排序到内存屏障之前的位置。
+volalite变量的读性能与普通变量类似，但是写性能要低一些，因为它需要插入内存屏障指令来保证处理器不会发生乱序执行。即便如此，
+大多数场景下volatile的总开销仍然要比锁低，所以volatile的语义能满足需求时候，选择volatile要优于使用锁。
