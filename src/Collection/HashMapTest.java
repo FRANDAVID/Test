@@ -30,7 +30,8 @@ public class HashMapTest {
         map.put("one", r.nextInt(10));
         map.put("two", r.nextInt(10));
         map.put("three", r.nextInt(10));
-
+        map.put(null,222);
+        map.put(null,333);
         // 打印出map
         System.out.println("map:"+map );
 

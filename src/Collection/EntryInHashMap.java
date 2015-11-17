@@ -3,6 +3,12 @@ package Collection;
 import java.util.Map;
 
 public class EntryInHashMap{
+/**
+ * 
+    从中，我们可以看出 Entry 实际上就是一个单向链表。这也是为什么我们说HashMap是通过拉链法解决哈希冲突的。
+Entry 实现了Map.Entry 接口，即实现getKey(), getValue(), setValue(V value), equals(Object o), 
+hashCode()这些函数。这些都是基本的读取/修改key、value值的函数。
+ */
 static class Entry<K,V> implements Map.Entry<K,V> {
     final K key;
     V value;
