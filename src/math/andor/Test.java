@@ -25,5 +25,6 @@ public class Test{
 		System.out.println(1<<31); //2*2^2
 		System.out.println(2^31);
 		System.out.println(4>>2);
+		System.out.println(1<<30);
 	}
 }

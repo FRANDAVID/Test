@@ -8,8 +8,29 @@ import java.util.LinkedList;
 @SuppressWarnings("all")
 public class LinkedListTest2 {
 	
-	//LinkedList中方法很多、但是没有一个是自己特有的、都是从抽象类或者接口中继承的、所以测试的时候就根据其继承或者实现的类、接口做为分类依据
+	//LinkedList中方法很多、但是没有一个是自己特有的、都是从抽象类或者接口中继承的、
+//	所以测试的时候就根据其继承或者实现的类、接口做为分类依据
+/**	
+	(06) LinkedList可以作为FIFO(先进先出)的队列，作为FIFO的队列时，下表的方法等价：
+
 	
+	队列方法       等效方法
+	
+	add(e)        addLast(e)
+	offer(e)      offerLast(e)
+	remove()      removeFirst()
+	poll()        pollFirst()
+	element()     getFirst()
+	peek()        peekFirst()
+	
+	(07) LinkedList可以作为LIFO(后进先出)的栈，作为LIFO的栈时，下表的方法等价：
+
+	栈方法        等效方法
+	push(e)      addFirst(e)
+	pop()        removeFirst()
+	peek()       peekFirst()
+	
+**/
 	/**
 	 * 测试从AbstractSequentialList中继承的方法
 	 */

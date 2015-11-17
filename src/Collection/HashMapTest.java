@@ -3,6 +3,7 @@ package Collection;
 
 import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 import java.util.Iterator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -39,7 +40,12 @@ public class HashMapTest {
             Map.Entry entry = (Map.Entry)iter.next();
             System.out.println("next : "+ entry.getKey() +" - "+entry.getValue());
         }
-
+        Iterator it = map.keySet().iterator();
+        while(it.hasNext()){
+        	 String key = (String)it.next();
+             Integer integ = (Integer)map.get(key);
+        	System.out.print(key+"="+integ);
+        }
         // HashMap的键值对个数        
         System.out.println("size:"+map.size());
 
