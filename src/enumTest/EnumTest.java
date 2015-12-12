@@ -1,5 +1,7 @@
 package enumTest;
 // issue
+
+// 枚举是个什么鬼
  enum Code {
     Name(0), Age(1), Address(2);
      
