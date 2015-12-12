@@ -17,5 +17,7 @@ public class EnumTest{
 		System.out.println(Code.valueOf("Address").code);
 		System.out.println(Code.valueOf("Age").code);
 		System.out.println(NodeType.valueOf(26));
+		System.out.println("dev commit1");
+		System.out.println("dev commit2");
 	}
 }
