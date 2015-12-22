@@ -1,4 +1,5 @@
 package bfs;
+
 class GraphNode{ 
         int val;
         GraphNode next;
