@@ -1,4 +1,9 @@
 package enumTest;
+// issue
+
+// 枚举是个什么鬼
+//dev 提交3
+//dev 提交4
  enum Code {
     Name(0), Age(1), Address(2);
      
@@ -14,5 +19,7 @@ public class EnumTest{
 		System.out.println(Code.valueOf("Address").code);
 		System.out.println(Code.valueOf("Age").code);
 		System.out.println(NodeType.valueOf(26));
+		System.out.println("dev commit1");
+		System.out.println("dev commit2");
 	}
 }
