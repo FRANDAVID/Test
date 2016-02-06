@@ -10,6 +10,6 @@ public class Digui {
 
     public static void main(String[] args) {
 
-        System.out.println(Digui.factorial(0));
+        System.out.println(Digui.factorial(4));
     }
 }
