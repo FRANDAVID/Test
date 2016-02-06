@@ -74,7 +74,8 @@ public class BinaryTree {
             return;
         }       
         ArrayDeque<TreeNode> stack=new ArrayDeque<TreeNode>();
-        stack.push(root);       
+        stack.push(root);
+
         while(stack.isEmpty()==false){
             TreeNode node=stack.pop();
             System.out.print(node.value+"    ");
@@ -114,7 +115,7 @@ public class BinaryTree {
         System.out.print("\n");
     }
 
-    /** 
+    /** https://github.com/gdweijin/Test.git
      *                  13
      *                 /  \
      *               65    5

@@ -37,6 +37,8 @@ public class ArrayBlockingQueueDemo1{
         MyThread(String name) {
             super(name);
         }
+        Random r = new Random();
+
         @Override
         public void run() {
                 int i = 0;

@@ -1,6 +1,6 @@
 package bfs;
 
-class GraphNode{ 
+class GraphNode{
         int val;
         GraphNode next;
         GraphNode[] neighbors;
