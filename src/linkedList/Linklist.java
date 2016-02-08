@@ -124,7 +124,7 @@ public class Linklist {
 		  }
 		  System.out.println(" NULL");
 		 }
-		
+
 /*
  * 下面给出一个测试用例，用数组创建一个整型的链表，并且把它输出		 
  */
