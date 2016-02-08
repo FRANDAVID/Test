@@ -1,44 +1,53 @@
 package junitTest;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
 public class LogicServiceTest {
+    LogicService logserv ;
 
     @Before
     public void setUp() throws Exception {
+        logserv = new LogicService();
     }
 
     @Test
     public void testAdd() {
-        fail("Not yet implemented");
+        String a = "aa";
+        String t = "a";
+        String b = "a"+t;
+        assertEquals("assertEquals", a, b) ; //A与B的关系是值相等，地址不相等，这个用例会成功
     }
 
     @Test
     public void testSub() {
-        fail("Not yet implemented");
+        String a = "aa";
+        String t = "a";
+        String b = "a"+t;
+        assertSame("assertSame", a, b) ; //A与B的关系是值相等，地址不相等,这个用例会失败
     }
 
     @Test
     public void testDiv() {
-        fail("Not yet implemented");
+        assertTrue("assertTrue",true);//用例成功
+        assertTrue("第二个为false失败",false);//用例失败
     }
 
     @Test
     public void testDiv2() {
-        fail("Not yet implemented");
+        assertNull("assertNull",null);//用例成功
+        assertNull("第二个为notNull失败","a");//用例失败
     }
 
-    @Test
+    @Ignore
     public void testLoop() {
-        fail("Not yet implemented");
     }
 
-    @Test
+    @Ignore
     public void testUnCompleted() {
-        fail("Not yet implemented");
     }
 
 }
