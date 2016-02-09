@@ -1,4 +1,4 @@
-package linkedList.linkedlistInterview;
+package 数据结构与算法学习笔记;
 
 /**
  * Created by Rain on 16/2/8.
@@ -16,7 +16,7 @@ package linkedList.linkedlistInterview;
 public class LinkedList{
 
     public ListNode head;
-    public  ListNode  pre;
+    public ListNode pre;
     public LinkedList(ListNode head){
         this.head = head;
         this.pre = head;

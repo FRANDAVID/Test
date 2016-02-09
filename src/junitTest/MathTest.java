@@ -1,18 +1,17 @@
 package junitTest;
 
 
-import static org.junit.Assert.*;  
-  
-import java.util.Arrays;  
-import java.util.Collection;  
-  
-import org.junit.AfterClass;  
-import org.junit.BeforeClass;  
-import org.junit.Ignore;  
-import org.junit.Test;  
-import org.junit.runner.RunWith;  
-import org.junit.runners.Parameterized;  
-import org.junit.runners.Parameterized.Parameters;  
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+
+import java.util.Arrays;
+import java.util.Collection;
+
+import static org.junit.Assert.assertEquals;
   
 /** 
  * @author bulargy.j.bai 
@@ -49,10 +48,11 @@ public class MathTest {
   
     }  
   
-    //@Ignore("忽略乘法测试")  
+//    @Ignore("忽略乘法测试")
     @Test  
     public void testMultiple() {  
-        assertEquals(result,Math.multiple(faciend,multiplicator));  
+        assertEquals(result,Math.multiple(faciend,multiplicator));
+        assertEquals(2,23);
     }  
       
     @Parameters  
@@ -63,6 +63,11 @@ public class MathTest {
         {21, 5, 105 },  
         {11, 22, 242 },  
         {8, 9, 72 }});  
-    }  
+    }
+    @Test(timeout = 10000)
+    public void testTime() throws InterruptedException {
+        Thread.currentThread().sleep(100);
+    }
+
   
 }  
