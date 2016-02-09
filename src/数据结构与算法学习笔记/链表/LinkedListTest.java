@@ -1,4 +1,4 @@
-package 数据结构与算法学习笔记;
+package 数据结构与算法学习笔记.链表;
 
 import org.junit.Test;
 
