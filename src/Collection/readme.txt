@@ -1,6 +1,23 @@
 http://www.cnblogs.com/skywang12345/p/3323085.html
 http://blog.csdn.net/crave_shy/article/details/17416791
 http://www.cnblogs.com/skywang12345/p/3603935.html 数据结构和算法目录
+
+Collection
+     ├List                                     /**允许重复的value集合*/
+     │├LinkedList                        /**用双向链表实现*/
+     │├ArrayList                          /**非同步，用数组实现，自增为原来长度的50%*/
+     │└Vector                             /**同步，用数组实现，自增为原来的一倍*/
+     │　└Stack                           /**用vector实现栈结构*/
+     └Set                                    /**不允许重复的value集合*/
+        ├HashSet
+        ├LinkedHashSet
+        └TreeSet
+
+     Map                                    /**不允许重复的key-value集合*/
+     ├Hashtable                         /**同步，key-value，不允许key为null*/
+     ├HashMap                          /**非同步，key-value，允许key为null*/
+     └WeakHashMap
+
 java 集合系列
 1. List的实现类主要有: LinkedList, ArrayList, Vector, Stack。
 
