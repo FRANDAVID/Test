@@ -9,6 +9,6 @@ public class Digui {
 		return n*factorial(n-1);
 	}
 	public static void main(String[]args){
-		System.out.println(Digui.factorial(4));
+		System.out.println(Digui.factorial(9));
 	}
 }
