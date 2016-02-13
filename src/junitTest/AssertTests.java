@@ -12,6 +12,8 @@ import static org.junit.matchers.JUnitMatchers.containsString;
 import static org.junit.matchers.JUnitMatchers.everyItem;
 import static org.junit.matchers.JUnitMatchers.hasItems;
 
+
+
 public class AssertTests {
     @Test
     public void testAssertArrayEquals() {
@@ -54,17 +56,17 @@ public class AssertTests {
     // JUnit Matchers assertThat
     @Test
     public void testAssertThatBothContainsString() {
-        org.junit.Assert.assertThat("albumen", both(containsString("a")).and(containsString("b")));
+        assertThat("albumen", both(containsString("a")).and(containsString("b")));
     }
 
     @Test
     public void testAssertThathasItemsContainsString() {
-        org.junit.Assert.assertThat(Arrays.asList("one", "two", "three"), hasItems("one", "three"));
+        assertThat(Arrays.asList("one", "two", "three"), hasItems("one", "three"));
     }
 
     @Test
     public void testAssertThatEveryItemContainsString() {
-        org.junit.Assert.assertThat(Arrays.asList(new String[]{"fun", "ban", "net"}), everyItem(containsString("n")));
+        assertThat(Arrays.asList(new String[]{"fun", "ban", "net"}), everyItem(containsString("n")));
     }
 
     // Core Hamcrest Matchers with assertThat
@@ -74,7 +76,6 @@ public class AssertTests {
         assertThat("good", not(allOf(equalTo("bad"), equalTo("good"))));
         assertThat("good", anyOf(equalTo("bad"), equalTo("good")));
         assertThat(7, not(CombinableMatcher.<Integer>either(equalTo(3)).or(equalTo(4))));
-        assertThat(new Object(), not(sameInstance(new Object())));
     }
 
     @Test

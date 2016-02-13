@@ -2,11 +2,11 @@
   <library name="io.netty:netty:4.0.0.Alpha5" type="repository">
     <properties maven-id="io.netty:netty:4.0.0.Alpha5" />
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/netty-4.0.0.Alpha5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/4.0.0.Alpha5/netty-4.0.0.Alpha5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/lib/netty-4.0.0.Alpha5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/netty-4.0.0.Alpha5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
