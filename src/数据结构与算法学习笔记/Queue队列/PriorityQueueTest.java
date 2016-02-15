@@ -9,10 +9,10 @@ import java.util.Queue;
  *
  * Queue 接口 已经被linkedList实现了.
  */
-public class QueueTest {
+public class PriorityQueueTest {
 
     public static void main(String[] args) {
-        QueueTest.PriorityQueueTest();
+        PriorityQueueTest.PriorityQueueTest();
     }
 
     public void inOutQueue(){
