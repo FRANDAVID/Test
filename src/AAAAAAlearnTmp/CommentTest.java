@@ -6,7 +6,7 @@
 * @date 2015年8月18日 下午5:40:51  
 * @version V1.0    
 */
-package learnTmp;
+package AAAAAAlearnTmp;
 
 /** 
  * @包名   learnTmp 

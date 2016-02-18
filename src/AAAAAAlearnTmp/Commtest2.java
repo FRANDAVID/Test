@@ -6,7 +6,7 @@
 * @date 2015年8月18日 下午5:41:45  
 * @version V1.0    
 */
-package learnTmp;
+package AAAAAAlearnTmp;
 
 /**  
  * @ClassName: Commtest2  
