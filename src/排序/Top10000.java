@@ -1,8 +1,7 @@
-package sort;
+package 排序;
 
 
-import java.util.Arrays;    
-import java.util.Date;    
+import java.util.Date;
 import java.util.Random;    
 /**
  * http://128kj.iteye.com/blog/1682613

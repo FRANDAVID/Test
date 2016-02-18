@@ -1,4 +1,4 @@
-package binarysearch;
+package 二分查找;
 
 
 /**
@@ -9,9 +9,12 @@ package binarysearch;
  */
 public class BinarySearch { 
 	public static void main(String[] args) {
-		int[] src = new int[] {1, 3, 5, 7, 8, 9}; 
-		System.out.println(binarySearch(src, 3));
-		System.out.println(binarySearch(src,8,0,src.length-1));
+		int[] srcASC = new int[] {1, 3, 5, 7, 8, 9};
+		System.out.println(binarySearch(srcASC, 3));
+		System.out.println(binarySearch(srcASC,8,0,srcASC.length-1));
+		int[] srcdesc = new int[] {9,8,7,5,3,1};
+		System.out.println(binarySearch(srcdesc, 3));
+		System.out.println(binarySearch(srcdesc,8,0,srcdesc.length-1));
 	}
 
 	/**

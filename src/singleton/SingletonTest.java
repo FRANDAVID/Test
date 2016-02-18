@@ -1,7 +1,5 @@
 package singleton;
 
-import sort.Good_QuickSort3;
-
 /**
  * 对单例模式的测试
  * @author weijin

@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="org.quartz-scheduler:quartz-jboss:2.1.7" type="repository">
+    <properties maven-id="org.quartz-scheduler:quartz-jboss:2.1.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz-jboss/2.1.7/quartz-jboss-2.1.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.1.7/quartz-2.1.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/jboss-common/4.0.2/jboss-common-4.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/slide/webdavlib/2.0/webdavlib-2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/jboss-minimal/4.0.2/jboss-minimal-4.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/jboss-system/4.0.2/jboss-system-4.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss/jboss-jmx/4.0.2/jboss-jmx-4.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz-jboss/2.1.7/quartz-jboss-2.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

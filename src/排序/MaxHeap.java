@@ -1,4 +1,4 @@
-package sort;
+package 排序;
 
 // http://www.cnblogs.com/developerY/p/3319618.html
 // 区别 快速排序，递归的实现，递归废内存。
