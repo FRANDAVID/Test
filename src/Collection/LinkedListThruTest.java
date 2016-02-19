@@ -116,6 +116,7 @@ public class LinkedListThruTest {
         long end = System.currentTimeMillis();
         long interval = end - start;
         System.out.println("iteratorThroughPollFirst：" + interval+" ms");
+        System.out.println("this is ------------------");
     }
 
     /**
