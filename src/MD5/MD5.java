@@ -70,5 +70,6 @@ public class MD5 {
     public static void main(String[] args) {
         MD5 getMD5 = new MD5();
         System.out.println(getMD5.GetMD5Code("000000"));
+        System.out.println("file change");
     }
 }

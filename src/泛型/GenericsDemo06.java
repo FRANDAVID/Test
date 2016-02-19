@@ -1,5 +1,5 @@
 package 泛型;
-//参考网址：http://www.hollischuang.com/archives/228
+
 class Point<T> { // 此处可以随便写标识符号，T是type的简称
 	private T var; // var的类型由T指定，即：由外部指定
 
@@ -17,6 +17,6 @@ public class GenericsDemo06 {
 		Point<String> p = new Point<String>(); // 里面的var类型为String类型
 		p.setVar("it"); // 设置字符串
 		System.out.println(p.getVar().length()); // 取得字符串的长度
-		System.out.print("git test");
+
 	}
 };

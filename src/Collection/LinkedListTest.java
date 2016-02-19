@@ -38,7 +38,6 @@ public class LinkedListTest {
         llist.add("1");
         llist.add("2");
         llist.add("3");
-
         // 将“4”添加到第一个位置
         llist.add(1, "4");
         
@@ -92,7 +91,6 @@ public class LinkedListTest {
         llist.set(2, "300");
         // 获取第3个元素。不建议在LinkedList中使用此操作，因为效率低！
         System.out.println("\nget(3):"+llist.get(2));
-
 
         // ---- toArray(T[] a) ----
         // 将LinkedList转行为数组

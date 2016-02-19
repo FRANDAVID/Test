@@ -48,5 +48,9 @@ public class ArrayListTest {
         list.clear();
         // 判断ArrayList是否为空
         System.out.println("ArrayList is empty: "+ list.isEmpty());
+//        数组没有实现toString方法 所以直接打印数组会打印地址而不是数组的值。
+        int []a = {1,3,3,5,6};
+        System.out.println(Arrays.toString(a));
+        System.out.println(a);
     }
 }
