@@ -1,4 +1,4 @@
-package sort;
+package 排序;
 
 /**
  * 快速排序（Quicksort）是对冒泡排序的一种改进。由C. A. R. Hoare在1962年提出。

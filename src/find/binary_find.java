@@ -1,5 +1,7 @@
 package find;
 
+import java.util.Arrays;
+
 public class binary_find
 {
 /**
@@ -39,6 +41,7 @@ public static final int binarySearch(int[] array, int search) {
 public static void main(String[] args) {
     int[] array = { 81, 65, 49, 38, 25, 12, 0 };
     System.out.println(binarySearch(array, 65)); // 输出：1
+    System.out.println(Arrays.binarySearch(array,65));
 }
 }
 

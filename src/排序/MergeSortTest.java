@@ -1,4 +1,4 @@
-package sort;
+package 排序;
 
 /**
  * 算法描述：
