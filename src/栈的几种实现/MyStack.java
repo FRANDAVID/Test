@@ -1,4 +1,4 @@
-package stack;
+package 栈的几种实现;
 
 class Node {  
     int val;  

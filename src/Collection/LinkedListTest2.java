@@ -86,7 +86,7 @@ public class LinkedListTest2 {
 		printList(stack);
 		
 		/*
-		 *	pop(), poll()都是取出stack栈顶元素 、区别就是当stack中没有元素时、stack.pop()抛异常、stack.poll()返回null		
+		 *	pop(), poll()都是取出stack栈顶元素 、区别就是当stack中没有元素时、栈的几种实现.pop()抛异常、栈的几种实现.poll()返回null
 		 */
 		printStr("取出stack栈顶元素 str ：" + stack.pop());
 		printStr("取出stack栈顶元素 str ：" + stack.poll());

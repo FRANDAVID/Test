@@ -25,7 +25,7 @@ import java.util.*;
  *     5
  * The above binary tree is serialized as "{1,2,3,#,#,4,#,#,5}".
  */
-/* Use a stack. Time:O(n) and space O(logn). 
+/* Use a 栈的几种实现. Time:O(n) and space O(logn).
  */
 public class BinaryTreeInorderTraversal2 {
 	public ArrayList<Integer> inorderTraversal(TreeNode root) {

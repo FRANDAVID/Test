@@ -121,16 +121,16 @@ public class LinkedListTest {
         stack.push("3");
         stack.push("4");
         // 打印“栈”
-        System.out.println("stack:"+stack);
+        System.out.println("栈的几种实现:"+stack);
 
         // 删除“栈顶元素”
-        System.out.println("stack.pop():"+stack.pop());
+        System.out.println("栈的几种实现.pop():"+stack.pop());
         
         // 取出“栈顶元素”
-        System.out.println("stack.peek():"+stack.peek());
+        System.out.println("栈的几种实现.peek():"+stack.peek());
 
         // 打印“栈”
-        System.out.println("stack:"+stack);
+        System.out.println("栈的几种实现:"+stack);
     }
 
     /**

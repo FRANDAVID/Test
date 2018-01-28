@@ -1,4 +1,4 @@
-package stack;
+package 栈的几种实现;
 
 /**
  * Java : 数组实现的栈，能存储任意类型的数据
@@ -54,10 +54,10 @@ public class GeneralArrayStack<T> {
     // 打印“栈”
     public void PrintArrayStack() {
         if (isEmpty()) {
-            System.out.printf("stack is Empty\n");
+            System.out.printf("栈的几种实现 is Empty\n");
         }
 
-        System.out.printf("stack size()=%d\n", size());
+        System.out.printf("栈的几种实现 size()=%d\n", size());
 
         int i=size()-1;
         while (i>=0) {
