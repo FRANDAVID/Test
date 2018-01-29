@@ -19,7 +19,7 @@ public class SimpleWorkQueue implements WorkQueue
     private Object lock = new Object();;
     
     /* 
-     * constructor to initiate worker threads and queue associated with it
+     * constructor to initiate worker threads and 队列的实现 associated with it
      */
     public SimpleWorkQueue(int nThreads, int totalTasks)
     {
@@ -68,8 +68,8 @@ public class SimpleWorkQueue implements WorkQueue
      */
     private class PoolWorker extends Thread {
     	/*
-    	 * Method to retrieve task from worker queue and start executing it.
-    	 * This thread will wait for a task if there is no task in the queue. 
+    	 * Method to retrieve task from worker 队列的实现 and start executing it.
+    	 * This thread will wait for a task if there is no task in the 队列的实现.
     	 */
         public void run() {
 

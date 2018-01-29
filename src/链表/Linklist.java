@@ -1,4 +1,4 @@
-package linkedList;
+package 链表;
 
  
 /* 先定义一个Node类用来存储节点的值域和指针域

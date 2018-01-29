@@ -1,4 +1,4 @@
-package queue;
+package 队列的实现;
 
 
 import java.util.Stack;

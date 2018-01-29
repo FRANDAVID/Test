@@ -147,15 +147,15 @@ public class LinkedListTest {
         queue.add("30");
         queue.add("40");
         // 打印“队列”
-        System.out.println("queue:"+queue);
+        System.out.println("队列的实现:"+queue);
 
         // 删除(队列的第一个元素)
-        System.out.println("queue.remove():"+queue.remove());
+        System.out.println("队列的实现.remove():"+queue.remove());
     
         // 读取(队列的第一个元素)
-        System.out.println("queue.element():"+queue.element());
+        System.out.println("队列的实现.element():"+queue.element());
 
         // 打印“队列”
-        System.out.println("queue:"+queue);
+        System.out.println("队列的实现:"+queue);
     }
 }

@@ -2,7 +2,7 @@ package workQueue;
 
 
 /*
- * Assigns task to worker queue
+ * Assigns task to worker 队列的实现
  */
 public class WorkAssignerThread extends Thread {
 	

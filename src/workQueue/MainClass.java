@@ -22,7 +22,7 @@ public class MainClass {
 		// Start the work assigner thread
 		WorkAssignerThread workAssigner = new WorkAssignerThread(workQueue, totalTasks); 
 		 
-		//Populate the task into worker queue
+		//Populate the task into worker 队列的实现
 		workAssigner.start();
 
 		long startTime = System.currentTimeMillis();
