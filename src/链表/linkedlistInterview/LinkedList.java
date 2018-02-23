@@ -1,4 +1,4 @@
-package linkedList.linkedlistInterview;
+package 链表.linkedlistInterview;
 
 /**
  * Created by Rain on 16/2/8.

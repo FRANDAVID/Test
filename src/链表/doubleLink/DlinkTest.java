@@ -1,4 +1,4 @@
-package linkedList.doubleLink;
+package 链表.doubleLink;
 
 
 /**

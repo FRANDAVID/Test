@@ -1,4 +1,4 @@
-package linkedList;
+package 链表;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;

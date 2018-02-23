@@ -1,4 +1,4 @@
-package linkedList.linkedlistInterview;
+package 链表.linkedlistInterview;
 
 import org.junit.Test;
 
