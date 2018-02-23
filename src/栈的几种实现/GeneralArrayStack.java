@@ -74,6 +74,7 @@ public class GeneralArrayStack<T> {
         astack.push("10");
         astack.push("20");
         astack.push("30");
+        astack.push("40");
 
         // 将“栈顶元素”赋值给tmp，并删除“栈顶元素”
         tmp = astack.pop();

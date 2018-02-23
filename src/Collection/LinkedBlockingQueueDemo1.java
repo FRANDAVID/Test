@@ -14,7 +14,7 @@ import java.util.concurrent.*;
 public class LinkedBlockingQueueDemo1 {
 
     // TODO: queue是LinkedList对象时，程序会出错。
-    //private static Queue<String> queue = new LinkedList<String>();
+    //private static Queue<String> 队列的实现 = new LinkedList<String>();
     private static Queue<String> queue = new LinkedBlockingQueue<String>();
     public static void main(String[] args) {
     

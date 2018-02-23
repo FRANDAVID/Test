@@ -113,7 +113,7 @@ public class LinkedListTest2 {
 		printStr(queue.poll());
 		
 		/*
-		 * 下面两个方法都是查看第一个元素、区别就是当queue中没有元素时、queue.element()抛异常、queue.peek()返回null
+		 * 下面两个方法都是查看第一个元素、区别就是当queue中没有元素时、队列的实现.element()抛异常、队列的实现.peek()返回null
 		 */
 		printStr(queue.element());
 		printList(queue);

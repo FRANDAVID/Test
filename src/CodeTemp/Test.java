@@ -14,6 +14,9 @@ public class Test {
         System.out.println(list.toString());
         int a = 0;
         StringBuffer sb = new StringBuffer(1);
+        for (int i=0;i<10;i++){
+            System.out.println(i);
+        }
         sb.append(2);
         System.out.println(sb);
         System.out.println(sb);
