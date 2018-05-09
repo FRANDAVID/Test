@@ -9,8 +9,8 @@ public class PersonBean {
     /** 
      * @return the mN 
      */  
-    public String getmN() {  
-        return mN;  
+    public String getmN() {
+        return mN;
     }  
   
     /** 

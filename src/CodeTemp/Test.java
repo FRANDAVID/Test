@@ -20,6 +20,10 @@ public class Test {
         sb.append(2);
         System.out.println(sb);
         System.out.println(sb);
+        for (int i = 0; i < 10; i++) {
+            if (args == null) {
+            }
+        }
 
 
 
