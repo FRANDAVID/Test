@@ -14,6 +14,8 @@ public class MainApp {
         nodes.add("10.10.80");
         nodes.add("10.10.70");
         nodes.add("10.10.60");
+        nodes.add("10.10.50");
+        nodes.add("10.10.60");
         //初始化一致性hash
         ConsistentHash<String> consistentHash = new ConsistentHash<String>(new HashFunction(), 160, nodes);
 
