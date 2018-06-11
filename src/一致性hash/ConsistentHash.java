@@ -1,4 +1,4 @@
-package onehash;
+package 一致性hash;
  
 import java.util.Collection;
 import java.util.SortedMap;

@@ -19,6 +19,7 @@ public class ArrayBlockingQueueDemo1{
     public static void main(String[] args) {
     
         // 同时启动两个线程对queue进行操作！
+
         new MyThread("ta").start();
         new MyThread("tb").start();
     }

@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
         如果此时线程池中的数量大于corePoolSize，缓冲队列workQueue满，并且线程池中的数量等于maximumPoolSize，那么通过 handler所指定的策略来处理此任务。也就是：处理任务的优先级为：核心线程corePoolSize、任务队列workQueue、最大线程 maximumPoolSize，如果三者都满了，使用handler处理被拒绝的任务。
 
         当线程池中的线程数量大于 corePoolSize时，如果某线程空闲时间超过keepAliveTime，线程将被终止。这样，线程池可以动态的调整池中的线程数。
+        https://mp.weixin.qq.com/s/aK2zJFPBCOtEwN8j40nvzg
  */
 public class ThreadTest {
 

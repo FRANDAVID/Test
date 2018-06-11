@@ -34,6 +34,7 @@ public class PopulatingNextRightPointersinEachNode {
 			root.right.next = root.next != null ? root.next.left : null;
 		}
 		connect(root.left);
+
 		connect(root.right);
 	}
 }

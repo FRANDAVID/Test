@@ -1,4 +1,4 @@
-package onehash.java;
+package 一致性hash.java;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
