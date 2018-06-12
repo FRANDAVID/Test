@@ -4,7 +4,6 @@ package json;
  * Created by weijin on 16/2/15.
  */
 
-import com.alibaba.fastjson.JSON;
 
 public class FastJsonTest {
     public static void main(String[] args) {
@@ -23,8 +22,6 @@ public class FastJsonTest {
         group.addUser(guestUser);
         group.addUser(rootUser);
 
-        String jsonString = JSON.toJSONString(group);
 
-        System.out.println(jsonString);
     }
 }
