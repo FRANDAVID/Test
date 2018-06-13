@@ -32,6 +32,7 @@ public class MainApp {
         System.out.println(consistentHash.get("5"));
         System.out.println(consistentHash.get("6"));
         System.out.println(consistentHash.get("7"));
+        System.out.println(consistentHash.get("8"));
     }
 
 }
