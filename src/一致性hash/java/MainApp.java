@@ -12,13 +12,6 @@ public class MainApp {
         
         //服务器列表，3个服务器，放入一致性hash环
         nodes.add("10.10.80");
-        nodes.add("10.10.70");
-        nodes.add("10.10.60");
-        nodes.add("10.10.50");
-        nodes.add("10.10.40");
-        nodes.add("10.10.30");
-        nodes.add("10.10.20");
-        nodes.add("10.10.10");
         //初始化一致性hash
         ConsistentHash<String> consistentHash = new ConsistentHash<String>(new HashFunction(), 160, nodes);
 
