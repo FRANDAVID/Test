@@ -23,6 +23,7 @@ public class MainApp {
         ConsistentHash<String> consistentHash = new ConsistentHash<String>(new HashFunction(), 160, nodes);
 
         consistentHash.add("D");
+        consistentHash.add("D");
         System.out.println(consistentHash.getSize());  //640
 
         System.out.println(consistentHash.get("1"));
