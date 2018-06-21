@@ -1,6 +1,5 @@
-package thread.countdownlatch;
+package 多线程.countdownlatch;
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.CyclicBarrier;
 
 public class CountDownLatchTest1 {
 

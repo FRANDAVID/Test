@@ -1,4 +1,4 @@
-package thread.concurrent;
+package 多线程.concurrent;
 
 import java.util.concurrent.TimeUnit;
 //java,线程操作,同步访问共享的可变数据

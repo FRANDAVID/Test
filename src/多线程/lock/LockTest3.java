@@ -1,4 +1,4 @@
-package thread.lock;
+package 多线程.lock;
 
 /*
  * 在“示例3”中，我们通过Condition去解决“示例1”中的两个问题：“仓库的容量不可能为负数”以及“仓库的容量是有限制的”。

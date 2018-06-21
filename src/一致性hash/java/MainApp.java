@@ -17,16 +17,10 @@ public class MainApp {
 
         consistentHash.add("D");
         consistentHash.add("D");
-        System.out.println(consistentHash.getSize());  //640
-
-        System.out.println(consistentHash.get("1"));
-        System.out.println(consistentHash.get("2"));
-        System.out.println(consistentHash.get("3"));
-        System.out.println(consistentHash.get("4"));
         System.out.println(consistentHash.get("5"));
         System.out.println(consistentHash.get("6"));
         System.out.println(consistentHash.get("7"));
-        System.out.println(consistentHash.get("8"));
+
     }
 
 }

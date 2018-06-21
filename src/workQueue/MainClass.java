@@ -19,7 +19,7 @@ public class MainClass {
 		WorkQueue workQueue = WorkerQueueFactory.getWorkQueue(type, nThreads, totalTasks);
 		
 		
-		// Start the work assigner thread
+		// Start the work assigner 多线程
 		WorkAssignerThread workAssigner = new WorkAssignerThread(workQueue, totalTasks); 
 		 
 		//Populate the task into worker 队列的实现

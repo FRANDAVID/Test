@@ -1,4 +1,4 @@
-package thread.threadLocal;
+package 多线程.threadLocal;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -7,10 +7,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class DemoTask implements Runnable {
  
-   // Atomic integer containing the next thread ID to be assigned
+   // Atomic integer containing the next 多线程 ID to be assigned
    private static final AtomicInteger nextId = new AtomicInteger(0);
  
-   // Thread local variable containing each thread's ID
+   // Thread local variable containing each 多线程's ID
    private static final ThreadLocal<Integer> threadId =
         new ThreadLocal<Integer>() {
             @Override
@@ -19,12 +19,12 @@ public class DemoTask implements Runnable {
             }
          };
  
-   // Returns the current thread's unique ID, assigning it if necessary
+   // Returns the current 多线程's unique ID, assigning it if necessary
    public int getThreadId() {
       return threadId.get();
    }
  
-   // Returns the current thread's starting timestamp
+   // Returns the current 多线程's starting timestamp
    private static final ThreadLocal<Date> startDate =
        new ThreadLocal<Date>() {
            protected Date initialValue() {

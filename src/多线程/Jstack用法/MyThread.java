@@ -1,4 +1,4 @@
-package thread.Jstack用法;
+package 多线程.Jstack用法;
 
 /**
  * Created by Rain on 16/2/19.

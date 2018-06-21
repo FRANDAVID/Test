@@ -1,4 +1,4 @@
-package thread.thread;
+package 多线程.thread;
 public class DepositThread extends Thread {  
   
     private Account account;  

@@ -1,4 +1,4 @@
-package thread.demoTread;
+package 多线程.demoTread;
 
 class Demo implements Runnable{
 

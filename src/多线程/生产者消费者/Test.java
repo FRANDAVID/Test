@@ -1,4 +1,4 @@
-package thread.生产者消费者;
+package 多线程.生产者消费者;
 
 import java.util.PriorityQueue;
 import java.util.concurrent.locks.Condition;

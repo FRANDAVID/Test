@@ -1,4 +1,4 @@
-package thread.countdownlatch;
+package 多线程.countdownlatch;
 import java.util.concurrent.CountDownLatch;  
 
 /*

@@ -1,4 +1,4 @@
-package thread.thread;
+package 多线程.thread;
 
 public class MyThread extends Thread {
 	private int id = 0;

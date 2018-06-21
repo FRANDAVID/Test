@@ -1,4 +1,4 @@
-package thread.safe;
+package 多线程.safe;
 
 
 /**

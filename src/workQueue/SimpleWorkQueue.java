@@ -38,7 +38,7 @@ public class SimpleWorkQueue implements WorkQueue
 
     /* 
      * Executes the given task in the future.
-     * Queues the task and notifies the waiting thread. Also it makes
+     * Queues the task and notifies the waiting 多线程. Also it makes
      * the Work assigner to wait if the queued task reaches to threshold
      */
     public void execute(Runnable r) {
@@ -50,7 +50,7 @@ public class SimpleWorkQueue implements WorkQueue
     }
     
     /*
-     * Clean-up the worker thread when all the tasks are done
+     * Clean-up the worker 多线程 when all the tasks are done
      */
     public void doInterruptAllWaitingThreads() {
     	//Interrupt all the threads
@@ -64,12 +64,12 @@ public class SimpleWorkQueue implements WorkQueue
     }
 
     /*
-     * Worker thread to execute user tasks
+     * Worker 多线程 to execute user tasks
      */
     private class PoolWorker extends Thread {
     	/*
     	 * Method to retrieve task from worker 队列的实现 and start executing it.
-    	 * This thread will wait for a task if there is no task in the 队列的实现.
+    	 * This 多线程 will wait for a task if there is no task in the 队列的实现.
     	 */
         public void run() {
 

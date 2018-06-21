@@ -1,4 +1,4 @@
-package thread.hashmap;
+package 多线程.hashmap;
 import java.util.HashMap;
 //http://blog.csdn.net/xuefeng0707/article/details/40797085
 public class HashMapInfiniteLoop {

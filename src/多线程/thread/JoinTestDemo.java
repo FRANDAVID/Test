@@ -1,4 +1,4 @@
-package thread.thread;
+package 多线程.thread;
 class CustomThread1 extends Thread {    
       
     public void run() {    

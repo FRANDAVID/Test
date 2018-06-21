@@ -1,12 +1,12 @@
 /**    
 * @Title: ExcuterTest.java  
-* @Package thread.concurrent  
+* @Package 多线程.concurrent
 * @Description: TODO(用一句话描述该文件做什么)  
 * @author weijin@baidu.com
 * @date 2015年8月27日 上午11:06:05  
 * @version V1.0    
 */
-package thread.concurrent;
+package 多线程.concurrent;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

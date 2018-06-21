@@ -179,7 +179,7 @@ public class WordCounter {
             counts = wordCounter.countOccurrencesOnSingleThread(folder, args[1]);
             stopTime = System.currentTimeMillis();
             singleThreadTimes[i] = (stopTime - startTime);
-            System.out.println(counts + " , single thread search took " + singleThreadTimes[i] + "ms");
+            System.out.println(counts + " , single 多线程 search took " + singleThreadTimes[i] + "ms");
         }
 
         for (int i = 0; i < repeatCount; i++) {
@@ -191,7 +191,7 @@ public class WordCounter {
         }
 
         System.out.println("\nCSV Output:\n");
-        System.out.println("Single thread,Fork/Join");
+        System.out.println("Single 多线程,Fork/Join");
         for (int i = 0; i < repeatCount; i++) {
             System.out.println(singleThreadTimes[i] + "," + forkedThreadTimes[i]);
         }
