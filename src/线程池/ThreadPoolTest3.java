@@ -4,7 +4,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-
+//https://www.cnblogs.com/nayitian/p/3262031.html
 public class ThreadPoolTest3 {
     static class MyThread implements Runnable {
         private String name;
