@@ -1,44 +1,40 @@
 package 线程池解决异常任务;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadFactory;
 
+/**
+ * Created by 11 on 2017/7/5.
+ */
 public class Plan2 {
-    private SimpleTask task = new SimpleTask();
+    private Plan.SimpleTask task = new Plan.SimpleTask();
+    private MyFactory factory = new MyFactory(task);
     public static void main(String[] args) {
-        Plan2 plan = new Plan2();
-        start(plan.task);
+        Plan2 plan2 = new Plan2();
+        ExecutorService pool = Executors.newSingleThreadExecutor(plan2.factory);
+        pool.execute(plan2.task);
+        pool.shutdown();
     }
-    
-    public static void start(SimpleTask task){
-        ScheduledExecutorService pool = Executors.newSingleThreadScheduledExecutor();
-        ScheduledFuture<?> future = pool.scheduleAtFixedRate(task, 0, 1000, TimeUnit.MILLISECONDS);
-        try {
-            future.get();
-        } catch (InterruptedException | ExecutionException e) {
-            System.out.println(e.getMessage());
-            start(task);
-        }finally {
-            pool.shutdown();
+
+    class MyFactory implements ThreadFactory {
+
+        private Plan.SimpleTask task;
+
+        public MyFactory(Plan.SimpleTask task) {
+            super();
+            this.task = task;
         }
-    }
-    
-    class SimpleTask implements Runnable{
-        private volatile int count = 0;
+
         @Override
-        public void run() {
-            String threadName = Thread.currentThread().getName();
-            System.out.println(threadName+"--"+"启动");
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            if(System.currentTimeMillis()%3==0){
-                throw new RuntimeException("模拟异常");
-            }
-            System.out.println(threadName+"--"+"执行task"+count);
-            count++;
-            System.out.println(threadName+"--"+"正常终止");
+        public Thread newThread(Runnable r) {
+            Thread thread = new Thread(r);
+            thread.setUncaughtExceptionHandler((t, e) -> {
+                ExecutorService pool = Executors.newSingleThreadExecutor(new MyFactory(task));
+                pool.execute(task);
+                pool.shutdown();
+            });
+            return thread;
         }
     }
 }
