@@ -1,4 +1,4 @@
-package bloomfilter.bloomFilter;
+package 布隆过滤器.bloomFilter;
 
 import java.io.File;
 import java.io.FileInputStream;

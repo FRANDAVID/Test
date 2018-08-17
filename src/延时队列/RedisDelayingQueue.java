@@ -40,6 +40,3 @@ public class RedisDelayingQueue<T> {
     while (!Thread.interrupted()) {
       // 只取一条
       Set<String> values = jedis.zrangeByScore(queueKey,...
-
-https://juejin.im
-掘金 — 一个帮助开发者成长的社区

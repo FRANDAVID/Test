@@ -1,4 +1,4 @@
-package bloomfilter;
+package 布隆过滤器;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
