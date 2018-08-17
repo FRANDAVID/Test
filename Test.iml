@@ -11,5 +11,6 @@
     <orderEntry type="library" name="cglib:cglib:3.2.6" level="project" />
     <orderEntry type="library" name="com.fiftyonred:mock-jedis:0.4.0" level="project" />
     <orderEntry type="library" name="com.alibaba:fastjson:1.2.16" level="project" />
+    <orderEntry type="library" name="org.springframework:spring:2.0.5" level="project" />
   </component>
 </module>
