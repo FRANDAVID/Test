@@ -2,7 +2,7 @@ package springBean生命周期;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+//https://www.jianshu.com/p/3944792a5fff
 public class AcPersonServiceTest {
 
     public static void main(String[] args) {
